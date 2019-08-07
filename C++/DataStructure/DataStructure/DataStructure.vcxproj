@@ -18,9 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbstractContainer.cpp" />
+    <ClCompile Include="Queue.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractContainer.h" />
+    <ClInclude Include="Queue.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{C7F1ECFC-26A0-44B8-8D3F-FFB9F8435AAE}</ProjectGuid>
+    <ProjectGuid>{9BCD083B-4873-48AF-A366-4FDD8C63D1E9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>DataStructure</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
