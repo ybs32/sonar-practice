@@ -1,9 +1,9 @@
 #ifndef   QUE_HPP
 #define   QUE_HPP
 
-#include "AbstractContainer.h"
+#include "Container.h"
 
-class Queue : public AbstractContainer
+class Queue : public Container
 {
 public:
 	void push(int val);
