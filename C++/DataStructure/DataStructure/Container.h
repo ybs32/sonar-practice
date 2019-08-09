@@ -1,7 +1,7 @@
 #ifndef   AC_HPP
 #define   AC_HPP
 
-class AbstractContainer
+class Container
 {
 protected:
 	struct Node
@@ -13,7 +13,7 @@ protected:
 	Node* pHead;
 	Node* pTail;
 public:
-	AbstractContainer();
+	Container();
 
 	virtual void push(int val) = 0;
 

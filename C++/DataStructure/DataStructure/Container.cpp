@@ -1,10 +1,10 @@
 #include <iostream>
-#include "AbstractContainer.h"
+#include "Container.h"
 #include "Queue.h"
 
 using namespace std;
 
-AbstractContainer::AbstractContainer()
+Container::Container()
 {
 	pHead = 0;
 	pTail = 0;
@@ -12,17 +12,17 @@ AbstractContainer::AbstractContainer()
 
 void main(void)
 {
-	AbstractContainer* pContainer = new Queue;
+	Container* pCon = new Queue;
 
 	// Push data
 	for (int i = 0; i < 10; i++) {
-		pContainer->push(i);
+		pCon->push(i);
 	}
 
 	// Pop and show data
 	for (int i = 0; i < 10; i++) {
-		cout << pContainer->pop() << " ";
+		cout << pCon->pop() << " ";
 	}
 
-	delete pContainer;
+	delete pCon;
 }
