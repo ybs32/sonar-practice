@@ -19,12 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AbstractContainer.cpp" />
+    <ClCompile Include="Container.cpp" />
     <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="Stack.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AbstractContainer.h" />
+    <ClInclude Include="Container.h" />
     <ClInclude Include="Queue.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
