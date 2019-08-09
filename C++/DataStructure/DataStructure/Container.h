@@ -1,5 +1,5 @@
-#ifndef   AC_HPP
-#define   AC_HPP
+#ifndef   CON_HPP
+#define   CON_HPP
 
 class Container
 {
@@ -20,4 +20,4 @@ public:
 	virtual int pop() = 0;
 };
 
-#endif // AC_HPP
+#endif // CON_HPP
