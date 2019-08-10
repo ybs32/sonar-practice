@@ -1,4 +1,4 @@
-package jp.ybs32.sonar.switches;
+package jp.ybs32.rules.switches;
 
 public class NonDefault {
 
@@ -9,14 +9,11 @@ public class NonDefault {
 		// Missing default clause
 		switch (arg) {
 			case 0:
-				/* ... */
 				break;
 			case 1:
-				/* ... */
 				arg += 1;
 				break;
 			case 2:
-				/* ... */
 				arg += 2;
 				break;
 			// The final default clause is required for secure programming
