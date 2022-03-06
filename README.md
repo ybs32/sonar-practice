@@ -1,4 +1,4 @@
-# sonar-practice
+# sonar-sample
 For analysis of SonarQube.
 
 ![sonar_home](https://raw.githubusercontent.com/ybs32/sonar-practice/images/sonar_home.png)
